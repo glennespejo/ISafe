@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="search_cirle_4th">350dp</dimen>
+    <dimen name="search_cirle_3rd">320dp</dimen>
+    <dimen name="search_cirle_2nd">290dp</dimen>
+    <dimen name="search_cirle_1st">260dp</dimen>
+
+    <!-- The default letter tile text size -->
+    <dimen name="tile_letter_font_size">35sp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">100dp</dimen>
+
+    <dimen name="ListViewAvatarWith2TextAndIcon">200dp</dimen>
+    <dimen name="ListViewAvatarSize">56dp</dimen>
+    <dimen name="ListViewAvatarWithText">56dp</dimen>
+    <dimen name="ListViewIconWithText">56dp</dimen>
+    <dimen name="ListView3Text">88dp</dimen>
+    <dimen name="ListView1Text">48dp</dimen>
+
+
+    <dimen name="ListViewMainTextSize">16sp</dimen>
+    <dimen name="ListViewSubTextSize">12sp</dimen>
+    <dimen name="ListViewSubDetailTextSize">12sp</dimen>
+
+    <dimen name="FabSize">56dp</dimen>
+</resources>

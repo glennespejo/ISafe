@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#800080</color>
+    <color name="primary_dark">#500150</color>
+    <color name="accent">#ffc400</color>
+    <color name="text_primary">#D9FFFFFF</color>
+    <color name="text_secondary">#D9000000</color>
+    <color name="SubTextColor">#D9FFFFFF</color>
+    <color name="image_tint">#93172cc6</color>
+    <color name="background">#0054a6</color>
+    <color name="backgrountint">#AA000000</color>
+
+
+
+    <color name="mini1">#8dcb8e</color>
+    <color name="mini2">#ffc16b</color>
+    <color name="mini3">#ff9472</color>
+    <color name="mini4">#fff082</color>
+    <color name="mini5">#ff2c55</color>
+    <color name="mini6">#c175cc</color>
+
+
+</resources>

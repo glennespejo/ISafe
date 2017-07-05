@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_custom_cardview"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/ListViewAvatarSize"
+            android:layout_height="@dimen/ListViewAvatarSize"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_marginLeft="10dp">
+
+            <Button
+                android:id="@+id/incident_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle_button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="1dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="2dp">
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="1dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/text_primary"
+                android:textSize="@dimen/ListViewMainTextSize"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/details"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="asssssssssssssssssssssss ssssssssssssssss sssssssssssssssss sssssssssssssss sssssssssssssssssssss"
+                android:textColor="#000"
+                android:textSize="@dimen/ListViewSubDetailTextSize" />
+
+            <TextView
+                android:id="@+id/incident_typeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Php 200.00"
+                android:textColor="@color/SubTextColor"
+                android:textSize="@dimen/ListViewSubTextSize"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lv_custom_shopTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:gravity="top|right"
+                android:paddingBottom="10dp"
+                android:text="Goldilocks"
+                android:textColor="@color/SubTextColor"
+                android:textSize="@dimen/ListViewSubTextSize"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
